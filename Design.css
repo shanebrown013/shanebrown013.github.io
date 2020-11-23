@@ -67,6 +67,11 @@ li {
 
     transition: all ease-in-out 250ms;
 }
+.Links a:focus, .Links a:focus::before, .Links a:focus::after {
+    color: #55d6aa;
+    width:100%;
+}
+
 .Links a:hover::before, .Links a:hover::after {
     width: 100%;
 }
