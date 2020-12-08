@@ -1,0 +1,172 @@
+body {
+    /* background-color: rgb(160, 158, 158); */
+    background-image: url("football.JPG");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    
+}
+.Links {
+    background-color: #333;
+    position: fixed;
+    z-index: 9999;
+    width: 100%;
+    top: 0;
+    text-align: center;
+    border-style: solid;
+    border-width: thin;
+    box-shadow: 2px 2px 7px black;        
+    overflow: hidden;
+}
+.Links a {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+}
+.Links a:hover {
+    color: #55d6aa;
+}
+.Links a:focus:active {
+    color: #55d6aa;
+}
+.Links ul {
+    list-style: none;
+    margin: 0;
+    padding: 0px;
+}
+.Links ul li {
+    display: inline-block;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: relative;
+}
+.Links a::before {
+    content: "";
+    display: block;
+    height: 5px;
+    background-color: #55d6aa;
+
+    position: absolute;
+    top: 0;
+    width: 0%;
+
+    transition: all ease-in-out 250ms;
+}
+.Links a::after {
+    content: "";
+    display: block;
+    height: 5px;
+    background-color: #55d6aa;
+
+    position: absolute;
+    bottom: 0;
+    width: 0%;
+
+    transition: all ease-in-out 250ms;
+}
+.Links a:focus, .Links a:focus::before, .Links a:focus::after {
+    color: #55d6aa;
+    width:100%;
+}
+.Links a:hover::before, .Links a:hover::after {
+    width: 100%;
+}
+.middleHeader {
+    text-align: center;
+    animation: fadeIn ease 2s;
+    position:relative;
+    top: 550px;
+    color: whitesmoke;
+    font-size: 35px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.profilePic {
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    animation: fadeIn ease 2s;
+}
+@keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+@-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+@-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+@-ms-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+@-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+.homeContent {
+    text-align: center;
+    background-color: whitesmoke;
+    position: relative;
+    top: 700px;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 40px;
+}
+.homeContent p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 28px;
+}
+.homeContent button.contactMe {
+    display:inline-block;
+    background-color: transparent;
+    color: teal;
+    padding: 15px 30px;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 8px;
+    border-width: 3px;
+    border-color: teal;
+    border-style: solid;
+    margin: 50px;
+    
+}
+.homeContent button.contactMe:hover {
+    background-color: teal;
+    color: white;
+}
+.compSciIMG {
+    margin: 10px;
+    text-align: center;
+    left: 0;
+    right: 0;
+}
+.homeContent button.aboutMe {
+    display:inline-block;
+    background-color: transparent;
+    color: teal;
+    padding: 15px 30px;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 8px;
+    border-width: 3px;
+    border-color: teal;
+    border-style: solid;
+    margin: 50px;
+    
+}
+.homeContent button.aboutMe:hover {
+    background-color: teal;
+    color: white;
+}
