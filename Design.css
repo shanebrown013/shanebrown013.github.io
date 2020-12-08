@@ -29,10 +29,10 @@ body {
     text-decoration: none;
 }
 .Links a:hover {
-    color: #55d6aa;
+    color: teal;
 }
 .Links a:focus:active {
-    color: #55d6aa;
+    color: teal;
 }
 .Links ul {
     list-style: none;
@@ -51,7 +51,7 @@ body {
     content: "";
     display: block;
     height: 5px;
-    background-color: #55d6aa;
+    background-color: teal;
 
     position: absolute;
     top: 0;
@@ -63,7 +63,7 @@ body {
     content: "";
     display: block;
     height: 5px;
-    background-color: #55d6aa;
+    background-color: teal;
 
     position: absolute;
     bottom: 0;
@@ -72,7 +72,7 @@ body {
     transition: all ease-in-out 250ms;
 }
 .Links a:focus, .Links a:focus::before, .Links a:focus::after {
-    color: #55d6aa;
+    color: teal;
     width:100%;
 }
 .Links a:hover::before, .Links a:hover::after {
