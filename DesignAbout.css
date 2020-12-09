@@ -132,15 +132,15 @@ body {
 .aboutMeInfo {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 24px;
-    margin-left: 700px;
-    margin-right: 700px;
+    margin-left: 30%;
+    margin-right: 30%;
 }
 .aboutMeImage {
     margin-top: 50px;
 }
 .aboutMeInfo2 {
     font-size: 24px;
-    margin-left: 700px;
-    margin-right: 700px;
+    margin-left: 30%;
+    margin-right: 30%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
