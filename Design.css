@@ -1,17 +1,28 @@
 body {
-    background-color: rgb(160, 158, 158);
-    background-image: url("football.jpg");
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
     width: 100%;
     height: 100%;
     margin: 0;
-    
+}
+.bg {
+    background: url(newYork2.jpg);
+    background-size: cover;
+    background-position: center;
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    filter: blur(5px);
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    animation: fadeIn ease 1s;
 }
 .Links {
     background-color: #333;
-    position: sticky;
+    position: fixed;
     z-index: 9999;
     width: 100%;
     top: 0;
@@ -83,6 +94,7 @@ body {
     animation: fadeIn ease 2s;
     position:relative;
     top: 300px;
+    z-index: 2;
     color: whitesmoke;
     font-size: 35px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -92,6 +104,17 @@ body {
     position: fixed;
     top: -200px;
     left: 0;
+    z-index: 1;
+    right: 0;
+    animation: fadeIn ease 2s;
+}
+.profilePic2 {
+    text-align: center;
+    position: fixed;
+    top: -206px;
+    left: 0;
+    filter: blur(5px);
+    z-index: 0;
     right: 0;
     animation: fadeIn ease 2s;
 }
@@ -121,6 +144,7 @@ body {
     background-color: whitesmoke;
     position: relative;
     top: 425px;
+    z-index: 2;
     font-size: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin: 60px;
