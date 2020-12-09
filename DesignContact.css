@@ -140,7 +140,7 @@ body {
     border-width: 3px;
     border-color: teal;
     border-style: solid;
-    margin: 50px;
+    margin: 10px;
 }
 .contactButton:hover {
     background-color: teal;
