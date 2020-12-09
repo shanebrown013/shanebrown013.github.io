@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <title>
+                About Me
+            </title>
+            <link rel="stylesheet" href="DesignAbout.css">
+    </head>
+    <body>
+        <div class= "Links">
+            <ul>
+                <li><a class="active" href= "index.html">Home</a></li>
+                <li><a href= "about.html">About</a></li>
+                <li><a href= "#contact">Contact</a></li>
+                <li><a href= "#projects">Projects</a> </li>
+            </ul>
+        </div>
+        <div class="middleHeader">
+            <h1>
+                About<br> Me
+            </h1>
+        </div>
+         <div class="aboutContent">
+             <p class="aboutMeInfo">
+                <br> <br>
+                <b>Education: </b> <br> Texas A&M University - College Station, TX <br> 
+                B.S Computer Science Class of 2022 <br> 
+                GPA: 4.0/4.0 Scale <br> <br>
+
+                Blinn College - Brenham, TX <br>
+                Engineering Academy (A&M Dual Student) - Left Blinn in 2019 <br>
+                GPA: 3.81/4.0 Scale <br> <br>
+
+                <b>Coursework: </b> <br>
+                Data Structures and Algorithms, Discrete Structures in Computing, Programming Languages, Intro Program Design Concept, Engineering Graphics 
+                <br> <br>
+
+                <b>Organization Involved: </b> <br>
+                Aggie Coding Club - (Joined "<i>First Website</i>" Project in Fall 2020) <br>
+                <i>Looking to get more involved with more projects in the coming semesters</i>
+                <div class="aboutMeImage">
+                    <img src="profilePic.jpg" alt="about me pic" style="width:500px; border-radius: 5px;">
+                 </div>
+
+             </p>
+         </div>
+
+         <!-- Fading out the Header -->
+         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+         <script>
+            //  Fading out the Header
+            $(window).scroll(function() {
+                $(".middleHeader").css("opacity", 1 - $(window).scrollTop() / 150);
+            });
+         </script>
+
+    </body>
+</html>
