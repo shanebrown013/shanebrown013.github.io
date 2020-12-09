@@ -1,0 +1,131 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+.bg {
+    background: url(newYork2.jpg);
+    background-size: cover;
+    background-position: center;
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    filter: blur(5px);
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    animation: fadeIn ease 1s;
+}
+.Links {
+    background-color: #333;
+    position: fixed;
+    z-index: 9999;
+    width: 100%;
+    top: 0;
+    text-align: center;
+    border-style: solid;
+    border-width: thin;
+    box-shadow: 2px 2px 7px black;        
+    overflow: hidden;
+}
+.Links a {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+}
+.Links a:hover {
+    color: teal;
+}
+.Links a:focus:active {
+    color: teal;
+}
+.Links ul {
+    list-style: none;
+    margin: 0;
+    padding: 0px;
+}
+.Links ul li {
+    display: inline-block;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: relative;
+}
+.Links a::before {
+    content: "";
+    display: block;
+    height: 5px;
+    background-color: teal;
+
+    position: absolute;
+    top: 0;
+    width: 0%;
+
+    transition: all ease-in-out 250ms;
+}
+.Links a::after {
+    content: "";
+    display: block;
+    height: 5px;
+    background-color: teal;
+
+    position: absolute;
+    bottom: 0;
+    width: 0%;
+
+    transition: all ease-in-out 250ms;
+}
+.Links a:focus, .Links a:focus::before, .Links a:focus::after {
+    color: teal;
+    width:100%;
+}
+.Links a:hover::before, .Links a:hover::after {
+    width: 100%;
+}
+.middleHeader {
+    text-align: center;
+    animation: fadeIn ease 2s;
+    position:relative;
+    top: 100px;
+    color: whitesmoke;
+    font-size: 35px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 80px;
+}
+@keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+@-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+@-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+@-ms-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+@-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+.contactContent {
+    text-align: center;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    position: relative;
+    top: 100px;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 60px;
+}

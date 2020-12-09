@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <title>
+                About Me
+            </title>
+            <link rel="stylesheet" href="DesignContact.css">
+    </head>
+    <body>
+        <div class= "Links">
+            <ul>
+                <li><a class="active" href= "index.html">Home</a></li>
+                <li><a href= "about.html">About</a></li>
+                <li><a href= "contact.html">Contact</a></li>
+                <li><a href= "#projects">Projects</a> </li>
+            </ul>
+        </div>
+
+        <div class="bg">
+        </div>
+
+        <div class="middleHeader">
+            <h1>
+                Contact<br> Me!
+            </h1>
+        </div>
+         <div class="contactContent">
+
+         </div>
+
+         <!-- Fading out the Header -->
+         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+         <script>
+            //  Fading out the Header
+            $(window).scroll(function() {
+                $(".middleHeader").css("opacity", 1 - $(window).scrollTop() / 150);
+            });
+         </script>
+
+    </body>
+</html>
