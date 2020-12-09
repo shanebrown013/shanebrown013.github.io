@@ -152,8 +152,8 @@ body {
 .homeContent p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 28px;
-    margin-left: 700px;
-    margin-right: 700px;
+    margin-left: 30%;
+    margin-right: 30%;
 }
 .homeContent button {
     display:inline-block;
