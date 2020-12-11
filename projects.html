@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <title>
+                My Projects
+            </title>
+            <link rel="stylesheet" href="DesignProjects.css">
+    </head>
+    <body>
+        <div class= "Links">
+            <ul>
+                <li><a class="active" href= "index.html">Home</a></li>
+                <li><a href= "about.html">About</a></li>
+                <li><a href= "contact.html">Contact</a></li>
+                <li><a href= "projects.html">Projects</a> </li>
+            </ul>
+        </div>
+
+        <div class="bg">
+        </div>
+
+        <div class="middleHeader">
+            <h1>
+                My<br> Projects
+            </h1>
+        </div>
+         <div class="projectsContent">
+             <br><br><br><br><br><br><br><br><br><br><br>
+             <p class="projectsText">
+             <i>Uploading projects soon</i>
+             </p>
+             <br><br><br><br><br><br><br><br><br><br><br>
+            
+         </div>
+
+         <!-- Fading out the Header -->
+         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+         <script>
+            //  Fading out the Header
+            $(window).scroll(function() {
+                $(".middleHeader").css("opacity", 1 - $(window).scrollTop() / 150);
+            });
+         </script>
+
+    </body>
+</html>
