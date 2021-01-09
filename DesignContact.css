@@ -125,6 +125,9 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin: 60px;
 }
+.contactText {
+    animation: fadeIn ease 2s;
+}
 .contactButton {
     display:inline-block;
     background-color: transparent;
@@ -137,8 +140,12 @@ body {
     border-color: teal;
     border-style: solid;
     margin: 10px;
+    animation: fadeIn ease 1s;
 }
 .contactButton:hover {
     background-color: teal;
     color: white;
+}
+.infoBelow {
+    animation: fadeIn ease 2s;
 }
