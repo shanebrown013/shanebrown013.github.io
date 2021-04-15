@@ -140,14 +140,14 @@ body {
     display:inline-block;
     background-color: transparent;
     color: teal;
-    padding: 15px 30px;
+    padding: 15px 15px;
     text-align: center;
     font-size: 18px;
     border-radius: 8px;
     border-width: 3px;
     border-color: teal;
     border-style: solid;
-    margin: 50px;
+    margin: 30px;
 }
 .projectsContent button:hover {
     background-color: teal;
@@ -184,7 +184,7 @@ body {
     display: inline-grid;
     text-align: center;
     grid-template-columns: 35% 35%;
-    grid-template-rows: 50% 50%;
+    grid-template-rows: 50% 51%;
     grid-column-gap: 0px;
     grid-row-gap: 2%;
     justify-content: center;
