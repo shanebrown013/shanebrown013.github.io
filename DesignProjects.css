@@ -183,7 +183,7 @@ body {
     height: 100%;
     display: inline-grid;
     text-align: center;
-    grid-template-columns: 30% 30%;
+    grid-template-columns: 35% 35%;
     grid-template-rows: 50% 50%;
     grid-column-gap: 0px;
     grid-row-gap: 2%;
